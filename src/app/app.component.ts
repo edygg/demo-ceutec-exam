@@ -26,6 +26,12 @@ export class AppComponent {
       planet2,
       planet3,
     ]
+    /*
+    this.planetService.getPlanet().subscribe(results => {
+      this.planetStorage = results.results; // va donde tengan los planetas
+      this.planetFiltered = results.results;
+    })
+    */
 
     // Volver a obtener del servicio 
     // al inicio siempre se mostrarán todos los planetas
